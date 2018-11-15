@@ -1,0 +1,91 @@
+
+#navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+position: absolute;
+z-index: 1;
+width: 100%;
+height: 65px;
+}
+.logo {
+    display: inline;
+    width: 85px;
+    height: 70px;
+    padding-left: 10px;
+}
+.navItem {
+    float: right;
+    display: inline;
+}
+.colored {
+    background-color: rgb(211, 158, 198) !important;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+#navbar a:hover{
+    background-color: rgb(156, 141, 224);
+    color: aliceblue;
+}
+#navbar a:active {
+    background-color: rgba(200, 224, 112, 0.932);
+    color: blue;
+}
+.content {
+    bottom: 0;
+    padding: 0px;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.sectionOne {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#myVideo {
+    width: inherit;
+}
+.sectionOneContent .mainHeader {
+    color: azure;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 1;
+    padding: 20px;
+    margin: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    width: 100%;
+    z-index: -1;
+}
+.content {
+    display: block;
+}
+img {
+    width: 100%;
+    height: 400px;
+}
